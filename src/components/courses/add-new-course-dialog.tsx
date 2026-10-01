@@ -1,4 +1,4 @@
-import { Fragment, useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { PlusCircle, Plus, X, RotateCcw } from "lucide-react";
 
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -403,7 +403,7 @@ export function AddNewCourseDialog() {
             </Button>
               
             <Button type="submit">บันทึก</Button>
-            
+
           </DialogFooter>
         </form>
       </DialogContent>
